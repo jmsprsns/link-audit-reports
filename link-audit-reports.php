@@ -3,7 +3,7 @@
  * Plugin Name:       Link Audit and Reports
  * Plugin URI:        https://www.contentpowered.com
  * Description:       Audits every outbound link on your site, grouped by domain, with bulk rel changes, link stripping, whitelists, blacklists, an undo log and CSV export.
- * Version:           1.0.0
+ * Version:           1.0.1
  * Requires at least: 5.8
  * Requires PHP:      7.2
  * Author:            Content Powered

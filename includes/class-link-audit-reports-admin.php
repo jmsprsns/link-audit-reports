@@ -1123,7 +1123,7 @@ final class Link_Audit_Reports_Admin {
 
 		if ( ! empty( $filters['rel'] ) ) {
 			/* translators: %s: rel value. */
-			$parts[] = 'follow' === $filters['rel'] ? __( 'followed links only', 'link-audit-reports' ) : sprintf( __( '%s links only', 'link-audit-reports' ), $filters['rel'] );
+			$parts[] = 'follow' === $filters['rel'] ? __( 'that were followed', 'link-audit-reports' ) : sprintf( __( 'that had %s', 'link-audit-reports' ), $filters['rel'] );
 		}
 
 		if ( ! empty( $filters['from'] ) ) {
